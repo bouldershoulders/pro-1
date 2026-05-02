@@ -1,1 +1,105 @@
+body{
+    font-family: Roboto , sans-serif;
+}
+.blue{
+    background-color:#1F2937;
+    color:white;
+}
+.logo{
+    font-weight: bold;
+    font-size:large
+}
+.header{
+    max-width:1000px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:0 auto;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    gap:8px;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.below-header{
+    max-width:1000px;
+    margin:25px auto;
+    justify-content:space-between;
+}
+.hero-text{
+    font-weight: bold;
+    font-size: 35px;
+}
+.below-header img{
+    width:50%;
+}
 
+.white{
+    color:#1F2937;
+    padding-top:15px;
+    padding-bottom:25px;
+}
+
+.text{
+    text-align:center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card{
+    max-width:800px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    border:2px solid blue;
+    border-radius:10px;
+    overflow:hidden;
+}
+.cardone{
+    display:flex;
+    flex-direction:column;
+}
+.grey{
+    background-color: #E5E7EB;
+    color:#1F2937; 
+    padding:25px 0;
+}
+.cta{
+    max-width:800px;
+    margin:0 auto;
+}
+p{
+   font-size:36px; 
+}
+.credit{
+    text-align:right;
+    font-size:small;
+    font-weight: bold;
+}
+.whitetwo{
+    color:white;
+    padding:20px 0 20px 0;
+}
+.sky-blue{
+    background-color: blue;
+    max-width:1000px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+}
+button{
+    background:blue;
+    color:white;
+}
+.footer{
+    color:#1F2937;
+    text-align:center;
+    padding:10px 0 10px 0;
+}
